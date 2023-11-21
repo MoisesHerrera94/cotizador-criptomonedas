@@ -21,6 +21,10 @@ const InputSubmit = styled.input`
             background-color: #7a7dfe;
             cursor: pointer;
         }
+
+        @media screen and (max-width: 400px) {
+        font-size: 18px
+    }
     `
 
 const Formulario = ({setMonedas}) => {

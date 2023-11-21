@@ -14,6 +14,9 @@ const Imagen = styled.img`
     display:block;
     width: 120px;
 
+    @media screen and (max-width: 400px) {
+        width: 100px
+    }
 `
 
 const Texto = styled.p`
@@ -21,12 +24,20 @@ const Texto = styled.p`
     span {
         font-weight: 700;
     }
+
+    @media screen and (max-width: 400px) {
+        font-size: 16px
+    }
 `
 
 const Precio = styled.p`
     font-size:24px;
     span {
         font-weight: 700;
+    }
+
+    @media screen and (max-width: 400px) {
+        font-size: 19px
     }
 `
 

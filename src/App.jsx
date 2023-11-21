@@ -22,6 +22,10 @@ const Heading = styled.h1`
       display: block;
       margin: 10px auto 0 auto;
     }
+
+    @media screen and (max-width: 400px) {
+        font-size: 30px
+    }
   `
 
 const Imagen = styled.img`
